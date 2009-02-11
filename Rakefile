@@ -42,7 +42,7 @@ namespace :spec do
 end
 
 Rake::RDocTask.new(:doc) do |r|
-  r.title = "Rails Scenarios Plugin"
+  r.title = "Rails Spec Integration Plugin"
   r.main = "README"
   r.options << "--line-numbers"
   r.rdoc_files.include("README", "LICENSE", "lib/**/*.rb")
